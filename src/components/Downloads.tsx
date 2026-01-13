@@ -46,7 +46,7 @@ const Downloads = () => {
 
               <div className="space-y-3">
                 <a
-                  href="/downloads/Jisus-1.0.0-universal.dmg"
+                  href="https://www.dropbox.com/scl/fi/tpx43idqn2jei1lytwkrb/Jisus-1.0.0-universal.dmg?rlkey=mjpr5pzv07x305cbrp8r5vld8&st=0lrs53w6&dl=1"
                   className="w-full bg-indigo-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2 animate-pulse-glow"
                   download
                 >
@@ -89,10 +89,9 @@ const Downloads = () => {
               </div>
 
               <div className="space-y-3">
-                <a
-                  href="/downloads/Jisus Setup 1.0.0.exe"
-                  className="w-full bg-indigo-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2 animate-pulse-glow"
-                  download
+                <button
+                  disabled
+                  className="w-full bg-gray-400 text-gray-600 py-4 px-6 rounded-xl font-semibold text-lg cursor-not-allowed flex items-center justify-center space-x-2"
                 >
                   <svg
                     className="w-5 h-5"
@@ -102,7 +101,8 @@ const Downloads = () => {
                     <path d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
                   </svg>
                   <span>Download EXE</span>
-                </a>
+                </button>
+                <p className="text-sm text-gray-500 text-center">Coming Soon</p>
                 <p className="text-sm text-gray-500">Version 1.0.0 • 80.3 MB</p>
               </div>
             </div>
