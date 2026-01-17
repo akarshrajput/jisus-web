@@ -46,7 +46,7 @@ const Downloads = () => {
 
               <div className="space-y-3">
                 <a
-                  href="https://www.dropbox.com/scl/fi/tpx43idqn2jei1lytwkrb/Jisus-1.0.0-universal.dmg?rlkey=mjpr5pzv07x305cbrp8r5vld8&st=0lrs53w6&dl=1"
+                  href="https://www.dropbox.com/scl/fi/tjd63em473sxzb0s12wek/Jisus-1.0.0-universal.dmg?rlkey=frlm913f4232zlg416o1txs9k&st=75pf3205&dl=1"
                   className="w-full bg-indigo-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:bg-indigo-700 transition-colors flex items-center justify-center space-x-2 animate-pulse-glow"
                   download
                 >
